@@ -88,6 +88,29 @@ nav ul li a {
     all: unset;
     font-size: 2rem;
 }
+nav ul li a::before {
+    content: "";
+    display: block;
+    /* margin: auto; */
+    position: relative;
+    margin: auto;
+    width: 0px;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease;
+}
+nav ul li a::after {
+    content: "";
+    display: block;
+    /* margin: auto; */
+    width: 0px;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease;
+}
+nav ul li:hover a::after, nav ul li:hover a::before {
+    width: 100%;
+}
 /* Sections de 1 à 6*/
 
 main {

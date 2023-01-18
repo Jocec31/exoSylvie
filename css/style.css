@@ -115,7 +115,7 @@ nav ul li:hover a::after, nav ul li:hover a::before {
 
 main {
     width: 100%;
-    padding: 3rem;
+    padding: 0 3rem 10rem 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
